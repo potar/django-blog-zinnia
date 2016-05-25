@@ -240,8 +240,6 @@ msgstr "Тиждень №%s"
 
 #: feeds.py:181 templates/zinnia/entry_archive.html:5
 #: templates/zinnia/entry_archive.html:7
-#, fuzzy
-#| msgid "Latest entries"
 msgid "Last entries"
 msgstr "Останні дописи"
 
@@ -254,12 +252,12 @@ msgstr "Лишити коментар до %(object)s"
 #: feeds.py:218
 #, python-format
 msgid "Entries for the category %(object)s"
-msgstr ""
+msgstr "Дописи категорії %(object)s"
 
 #: feeds.py:225 templates/zinnia/entry_list.html:10
 #, python-format
 msgid "The last entries categorized under %(object)s"
-msgstr ""
+msgstr "Останні дописи %(object)s"
 
 #: feeds.py:256
 #, python-format
@@ -267,21 +265,17 @@ msgid "Entries for the author %(object)s"
 msgstr ""
 
 #: feeds.py:263 templates/zinnia/entry_list.html:19
-#, fuzzy, python-format
-#| msgid "Leave a comment on %(object)s"
 msgid "The last entries by %(object)s"
-msgstr "Лишити коментар до %(object)s"
+msgstr "Останні дописи від %(object)s"
 
 #: feeds.py:295
 #, python-format
 msgid "Entries for the tag %(object)s"
-msgstr ""
+msgstr "Дописи для тегу %(object)s"
 
 #: feeds.py:301 templates/zinnia/entry_list.html:15
-#, fuzzy, python-format
-#| msgid "Show all entries tagged by %(tag)s"
 msgid "The last entries tagged with %(object)s"
-msgstr "Показати усі дописи з тегом %(tag)s"
+msgstr "Показати останні дописи з тегом %(tag)s"
 
 #: feeds.py:335 templates/zinnia/entry_search.html:5
 #: templates/zinnia/entry_search.html:7 templates/zinnia/entry_search.html:19
@@ -351,7 +345,7 @@ msgstr "Трекбеки до %(object)s"
 
 #: models/category.py:24 models_bases/entry.py:54
 msgid "slug"
-msgstr ""
+msgstr "коротка назва"
 
 #: models/category.py:25
 msgid "Used to build the category's URL."
@@ -997,7 +991,7 @@ msgstr "Лишилося прочитати ще %(percent)s%% %(object)s."
 
 #: templates/zinnia/_entry_detail_base.html:101
 msgid "Continue reading"
-msgstr "Продовжити читання"
+msgstr "Читати далі"
 
 #: templates/zinnia/_entry_detail_base.html:117
 #: templates/zinnia/tag_list.html:17
@@ -1042,16 +1036,14 @@ msgid "No authors yet."
 msgstr "Досі нема жодного автора."
 
 #: templates/zinnia/base.html:17 templates/zinnia/skeleton.html:36
-#, fuzzy
 #| msgid "Related entries"
 msgid "RSS feed of last entries"
-msgstr "Дописи, що певним чином цього стосуються"
+msgstr "RSS стрічка останніх дописів"
 
 #: templates/zinnia/base.html:18
-#, fuzzy
 #| msgid "Latest discussions"
 msgid "RSS feed of last discussions"
-msgstr "Останні обговорення"
+msgstr "RSS стрічка останніх обговорень"
 
 #: templates/zinnia/base.html:28
 msgid "Welcome!"
@@ -1273,27 +1265,27 @@ msgstr "Пряме посилання на коментарі"
 #: templates/zinnia/entry_list.html:24
 #, python-format
 msgid "page %(object)s"
-msgstr ""
+msgstr "cторінка %(object)s"
 
 #: templates/zinnia/entry_list.html:28
 #, python-format
 msgid "Category %(object)s"
-msgstr ""
+msgstr "Категорія %(object)s"
 
 #: templates/zinnia/entry_list.html:32
 #, python-format
 msgid "Tag %(object)s"
-msgstr ""
+msgstr "Тег %(object)s"
 
 #: templates/zinnia/entry_list.html:36
 #, python-format
 msgid "Author %(object)s"
-msgstr ""
+msgstr "Автор %(object)s"
 
 #: templates/zinnia/entry_list.html:41
 #, python-format
 msgid "Page %(object)s"
-msgstr ""
+msgstr "Сторінка %(object)s"
 
 #: templates/zinnia/entry_list.html:46 templates/zinnia/entry_list.html:49
 #: templates/zinnia/entry_list.html:52 templates/zinnia/entry_list.html:67
@@ -1302,7 +1294,7 @@ msgstr ""
 #: templates/zinnia/entry_list.html:86
 #, python-format
 msgid "RSS feed of %(object)s"
-msgstr ""
+msgstr "RSS стрічка %(object)s"
 
 #: templates/zinnia/entry_list.html:62
 #, python-format
@@ -1417,7 +1409,7 @@ msgstr "Просто ще один блог на Zinnia."
 
 #: templates/zinnia/skeleton.html:37
 msgid "RSS feed"
-msgstr ""
+msgstr "RSS стрічка"
 
 #: templates/zinnia/skeleton.html:44 templates/zinnia/tags/search_form.html:5
 msgid "Keywords..."

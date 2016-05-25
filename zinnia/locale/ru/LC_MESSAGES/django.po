@@ -250,14 +250,10 @@ msgstr "Неделя %s"
 
 #: feeds.py:181 templates/zinnia/entry_archive.html:5
 #: templates/zinnia/entry_archive.html:7
-#, fuzzy
-#| msgid "Latest entries"
 msgid "Last entries"
 msgstr "Последние записи"
 
 #: feeds.py:187
-#, fuzzy, python-format
-#| msgid "The latest entries on the site %(object)s"
 msgid "The last entries on the site %(object)s"
 msgstr "Последние записи на сайте  %(object)s"
 
@@ -267,8 +263,6 @@ msgid "Entries for the category %(object)s"
 msgstr "Записи в категории  %(object)s"
 
 #: feeds.py:225 templates/zinnia/entry_list.html:10
-#, fuzzy, python-format
-#| msgid "The latest entries categorized under %(object)s"
 msgid "The last entries categorized under %(object)s"
 msgstr "Последние записи в категории  %(object)s"
 
@@ -278,7 +272,6 @@ msgid "Entries for the author %(object)s"
 msgstr "Записи автора %(object)s"
 
 #: feeds.py:263 templates/zinnia/entry_list.html:19
-#, fuzzy, python-format
 #| msgid "The latest entries by %(object)s"
 msgid "The last entries by %(object)s"
 msgstr "Последние записи от %(object)s"
@@ -289,7 +282,6 @@ msgid "Entries for the tag %(object)s"
 msgstr "Записи с тегом %(object)s"
 
 #: feeds.py:301 templates/zinnia/entry_list.html:15
-#, fuzzy, python-format
 #| msgid "The latest entries tagged with %(object)s"
 msgid "The last entries tagged with %(object)s"
 msgstr "Последние записи с тегом %(object)s"
@@ -301,20 +293,15 @@ msgid "Search results for '%(pattern)s'"
 msgstr "Результаты поиска '%(pattern)s'"
 
 #: feeds.py:341
-#, fuzzy, python-format
 #| msgid "The entries containing the pattern '%(pattern)s'"
 msgid "The last entries containing the pattern '%(pattern)s'"
 msgstr "Записи содержащие паттерн '%(pattern)s'"
 
 #: feeds.py:407
-#, fuzzy
-#| msgid "Latest discussions"
 msgid "Last discussions"
 msgstr "Последние обсуждения"
 
 #: feeds.py:413
-#, fuzzy, python-format
-#| msgid "The latest discussions on the site %(object)s"
 msgid "The last discussions on the site %(object)s"
 msgstr "Последние обсуждения на сайте %(object)s"
 
@@ -324,8 +311,6 @@ msgid "Discussions on %(object)s"
 msgstr "Обсуждения на %(object)s"
 
 #: feeds.py:453
-#, fuzzy, python-format
-#| msgid "The latest discussions on the entry %(object)s"
 msgid "The last discussions on the entry %(object)s"
 msgstr "Последние обсуждения на записи %(object)s"
 
@@ -336,8 +321,6 @@ msgid "Comments on %(object)s"
 msgstr "Комментарии для %(object)s"
 
 #: feeds.py:487
-#, fuzzy, python-format
-#| msgid "The latest comments on the entry %(object)s"
 msgid "The last comments on the entry %(object)s"
 msgstr "Последние комментарии к записи %(object)s"
 
@@ -347,8 +330,6 @@ msgid "Pingbacks on %(object)s"
 msgstr "Пингбэк для %(object)s"
 
 #: feeds.py:538
-#, fuzzy, python-format
-#| msgid "The latest pingbacks on the entry %(object)s"
 msgid "The last pingbacks on the entry %(object)s"
 msgstr "Последние пингбэки к записи %(object)s"
 
@@ -358,8 +339,6 @@ msgid "Trackbacks on %(object)s"
 msgstr "Трэкбэк для %(object)s"
 
 #: feeds.py:571
-#, fuzzy, python-format
-#| msgid "The latest trackbacks on the entry %(object)s"
 msgid "The last trackbacks on the entry %(object)s"
 msgstr "Последние трэкбэки к записи %(object)s"
 
@@ -1062,14 +1041,10 @@ msgid "No authors yet."
 msgstr "Авторов нет."
 
 #: templates/zinnia/base.html:17 templates/zinnia/skeleton.html:36
-#, fuzzy
-#| msgid "RSS feed of latest entries"
 msgid "RSS feed of last entries"
 msgstr "RSS лента с последними записями"
 
 #: templates/zinnia/base.html:18
-#, fuzzy
-#| msgid "RSS feed of latest discussions"
 msgid "RSS feed of last discussions"
 msgstr "RSS лента с последними обсуждениями"
 

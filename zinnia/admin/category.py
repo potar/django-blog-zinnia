@@ -6,11 +6,19 @@ from django.utils.translation import ugettext_lazy as _
 
 from zinnia.admin.forms import CategoryAdminForm
 
+from modeltranslation.admin import TranslationAdmin
 
-class CategoryAdmin(admin.ModelAdmin):
+
+class CategoryAdmin(TranslationAdmin):
     """
     Admin for Category model.
     """
+    prepopulated_fields = {
+        'slug_en': ('title_en',),
+        'slug_uk': ('title_uk',),
+        'slug_ru': ('title_ru',),
+    }
+
     form = CategoryAdminForm
     fields = ('title', 'parent', 'description', 'slug')
     list_display = ('title', 'slug', 'get_tree_path', 'description')

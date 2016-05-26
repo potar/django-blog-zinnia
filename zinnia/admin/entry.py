@@ -23,11 +23,20 @@ from zinnia.admin.filters import AuthorListFilter
 from zinnia.admin.filters import CategoryListFilter
 from zinnia.comparison import EntryPublishedVectorBuilder
 
+from modeltranslation.admin import TranslationAdmin
 
-class EntryAdmin(admin.ModelAdmin):
+
+class EntryAdmin(TranslationAdmin):
     """
     Admin for Entry model.
     """
+
+    prepopulated_fields = {
+        'slug_en': ('title_en',),
+        'slug_uk': ('title_uk',),
+        'slug_ru': ('title_ru',),
+    }
+
     form = EntryAdminForm
     date_hierarchy = 'publication_date'
     fieldsets = (

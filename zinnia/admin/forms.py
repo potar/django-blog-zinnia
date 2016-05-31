@@ -12,6 +12,8 @@ from zinnia.admin.widgets import TagAutoComplete
 from zinnia.admin.widgets import MPTTFilteredSelectMultiple
 from zinnia.admin.fields import MPTTModelMultipleChoiceField
 
+from ckeditor.widgets import CKEditorWidget as CKEditor
+
 
 class CategoryAdminForm(forms.ModelForm):
     """
@@ -57,6 +59,18 @@ class EntryAdminForm(forms.ModelForm):
         label=_('Categories'), required=False,
         queryset=Category.objects.all(),
         widget=MPTTFilteredSelectMultiple(_('categories')))
+
+    content_en = forms.CharField(
+        label=_('Content [en]:'), required=False,
+        widget=CKEditor())
+
+    content_uk = forms.CharField(
+        label=_('Content [uk]:'), required=False,
+        widget=CKEditor())
+
+    content_ru = forms.CharField(
+        label=_('Content [ru]:'), required=False,
+        widget=CKEditor())
 
     def __init__(self, *args, **kwargs):
         super(EntryAdminForm, self).__init__(*args, **kwargs)

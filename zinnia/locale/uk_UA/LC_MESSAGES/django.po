@@ -275,7 +275,7 @@ msgstr "Дописи для тегу %(object)s"
 
 #: feeds.py:301 templates/zinnia/entry_list.html:15
 msgid "The last entries tagged with %(object)s"
-msgstr "Показати останні дописи з тегом %(tag)s"
+msgstr "Показати останні дописи з тегом %(object)s"
 
 #: feeds.py:335 templates/zinnia/entry_search.html:5
 #: templates/zinnia/entry_search.html:7 templates/zinnia/entry_search.html:19

@@ -71,7 +71,6 @@ class EntryAdmin(TranslationAdmin):
     radio_fields = {'content_template': admin.VERTICAL,
                     'detail_template': admin.VERTICAL}
     filter_horizontal = ('categories', 'authors', 'related')
-    prepopulated_fields = {'slug': ('title', )}
     search_fields = ('title', 'excerpt', 'content', 'tags')
     actions = ['make_mine', 'make_published', 'make_hidden',
                'close_comments', 'close_pingbacks', 'close_trackbacks',

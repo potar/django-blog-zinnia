@@ -78,6 +78,7 @@ class EntryAdminForm(forms.ModelForm):
             self.fields['categories'].widget,
             Entry.categories.field.rel,
             self.admin_site)
+        self.fields['excerpt_en'].required = True
 
     class Meta:
         """
